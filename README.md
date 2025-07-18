@@ -42,7 +42,7 @@ npm install
 
 ### Environment Variables
 
-Need to set values for these environment variables
+Need to set values for these environment variables. A good way to do this is create `.env` file under the project's root and add the followings:
 ```bash
 BASE_URL=https://opensource-demo.orangehrmlive.com/web/index.php
 ADMIN_USERNAME=Admin # publicly share on orange hrm website
