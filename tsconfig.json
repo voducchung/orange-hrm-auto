@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowJs": true,
+    "target": "es6",
+    "module": "nodenext",
+    "moduleResolution": "nodenext"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

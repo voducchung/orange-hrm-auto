@@ -1,0 +1,31 @@
+{
+  "name": "orange-hrm-auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:local": "npx playwright test --project chromium",
+    "test:ci": "npx dotenvx run -f .env.ci -- npx playwright test --project chromium",
+    "test:regression": "npx playwright test --grep @regression",
+    "report:html": "npx playwright show-report",
+    "dotenvx": "npx dotenvx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voducchung/orange-hrm-auto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/voducchung/orange-hrm-auto/issues"
+  },
+  "homepage": "https://github.com/voducchung/orange-hrm-auto#readme",
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.48.0",
+    "@faker-js/faker": "^9.9.0",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14"
+  }
+}
