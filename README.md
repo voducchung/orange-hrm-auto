@@ -44,9 +44,9 @@ npm install
 
 Need to set values for these environment variables
 ```bash
-BASE_URL=
-ADMIN_USERNAME=
-ADMIN_PASSWORD=
+BASE_URL=https://opensource-demo.orangehrmlive.com/web/index.php
+ADMIN_USERNAME=Admin # publicly share on orange hrm website
+ADMIN_PASSWORD=admin123 # publicly share on orange hrm website
 ```
 
 ## Running Tests
